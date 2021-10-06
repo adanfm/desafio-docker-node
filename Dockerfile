@@ -2,9 +2,9 @@ FROM node:16
 
 WORKDIR /app
 
-RUN yarn
-
 COPY . .
+
+RUN yarn
 
 EXPOSE 3000
 
